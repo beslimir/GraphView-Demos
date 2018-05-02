@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_background">
+
+    <ImageView
+        android:id="@+id/ivSensorIcon"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_above="@+id/tvFirstSensor"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/hospital"
+        android:layout_marginBottom="50dp" />
+
+
+    <TextView
+        android:id="@+id/tvFirstSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="139dp"
+        android:text="Temperatura: "
+        android:textColor="@color/splash_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvFirstSensorValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvFirstSensor"
+        android:layout_alignBottom="@+id/tvFirstSensor"
+        android:layout_toEndOf="@+id/tvFirstSensor"
+        android:layout_toRightOf="@+id/tvFirstSensor"
+        android:paddingRight="10dp"
+        android:text="36"
+        android:textColor="@color/splash_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFirstSensorDesc"
+        android:textColor="@color/splash_text"
+        android:textSize="14sp"
+        android:text="Normalna temperatura"
+        android:layout_below="@+id/tvFirstSensorValue"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/tvSecondSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFirstSensorDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Kisik (%SPo2): "
+        android:textColor="@color/splash_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSecondSensorValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvSecondSensor"
+        android:layout_alignBottom="@+id/tvSecondSensor"
+        android:layout_toEndOf="@+id/tvSecondSensor"
+        android:layout_toRightOf="@+id/tvSecondSensor"
+        android:paddingRight="10dp"
+        android:text="79"
+        android:textColor="@color/splash_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSecondSensorDesc"
+        android:textColor="@color/splash_text"
+        android:textSize="14sp"
+        android:text="Normalan kisik"
+        android:layout_below="@+id/tvSecondSensorValue"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

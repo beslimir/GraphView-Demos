@@ -2,7 +2,7 @@ A big thanks for jjoe64 and his GraphView-Demos open-source project which helped
 
 To use eHealth_V2 project, please work with faculty_project branch
 
-eHealth_V2 is a project I made with my team for University purpose. We used eHealth Sensor platform (Cooking Hacks) to measure some values like ECG, temperature, etc. and jjoe64's library to show those values as a graph.
+eHealth_V2 is a project I made with my team for University purpose. We used eHealth Sensor platform (Cooking Hacks) to measure some values like ECG, temperature, etc. and jjoe64's library to show those values as a graph. After a lot of testing and research, we were able to finish this project and present it.
 
 The values are written in a format we used in arduino console (you can use which ever style you like) and sent through bluetooth sensor to our android app. In class ParseData, we read that data and parse it in the format we like.
 

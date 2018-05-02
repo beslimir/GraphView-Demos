@@ -3,7 +3,7 @@ package ehealth.graph_view.graph;
 import android.os.Handler;
 
 import com.example.beslimir.R;
-import com.example.beslimir.ehealth.graph_view.FullscreenActivity;
+import ehealth.graph_view.FullscreenActivity;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;

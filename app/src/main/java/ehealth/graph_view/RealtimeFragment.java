@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.beslimir.R;
-import com.example.beslimir.ehealth.graph_view.graph.BaseExample;
-import com.example.beslimir.ehealth.graph_view.graph.FixedFrame;
+import ehealth.graph_view.graph.BaseExample;
+import ehealth.graph_view.graph.FixedFrame;
 import com.jjoe64.graphview.GraphView;
 
 /**

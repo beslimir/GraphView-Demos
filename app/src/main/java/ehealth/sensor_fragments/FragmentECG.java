@@ -10,13 +10,13 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.beslimir.R;
-import com.example.beslimir.ehealth.Constants;
+import ehealth.Constants;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 import static android.view.View.GONE;
-import static com.example.beslimir.ehealth.MainActivity.mySensorData;
+import static ehealth.MainActivity.mySensorData;
 
 /**
  * Created by beslimir on 16.01.18..

@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.beslimir.ehealth.graph_view.graph.BaseExample;
+import ehealth.graph_view.graph.BaseExample;
 
 public class FullscreenActivity extends AppCompatActivity {
     private BaseExample mLogic;

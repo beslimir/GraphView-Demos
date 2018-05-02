@@ -4,11 +4,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.beslimir.ehealth.sensor_fragments.FragmentAirflow;
-import com.example.beslimir.ehealth.sensor_fragments.FragmentECG;
-import com.example.beslimir.ehealth.sensor_fragments.FragmentEMG;
-import com.example.beslimir.ehealth.sensor_fragments.FragmentGSR;
-import com.example.beslimir.ehealth.sensor_fragments.FragmentTemperature;
+import ehealth.sensor_fragments.FragmentAirflow;
+import ehealth.sensor_fragments.FragmentECG;
+import ehealth.sensor_fragments.FragmentEMG;
+import ehealth.sensor_fragments.FragmentGSR;
+import ehealth.sensor_fragments.FragmentTemperature;
 
 /**
  * Created by beslimir on 16.01.18..

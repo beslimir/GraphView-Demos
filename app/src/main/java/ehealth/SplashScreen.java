@@ -13,7 +13,7 @@ import com.facebook.stetho.Stetho;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.example.beslimir.ehealth.Constants.SPLASH_DISPLAY_LENGTH;
+import static ehealth.Constants.SPLASH_DISPLAY_LENGTH;
 
 /**
  * Created by beslimir on 16.01.18..

@@ -3,10 +3,10 @@ package ehealth.graph_view;
 import android.support.annotation.LayoutRes;
 
 import com.example.beslimir.R;
-import com.example.beslimir.ehealth.graph_view.graph.AddSeriesAtRuntime;
-import com.example.beslimir.ehealth.graph_view.graph.BaseExample;
-import com.example.beslimir.ehealth.graph_view.graph.FixedFrame;
-import com.example.beslimir.ehealth.graph_view.graph.RealtimeScrolling;
+import ehealth.graph_view.graph.AddSeriesAtRuntime;
+import ehealth.graph_view.graph.BaseExample;
+import ehealth.graph_view.graph.FixedFrame;
+import ehealth.graph_view.graph.RealtimeScrolling;
 
 public enum FullscreenExample {
     FIXED_FRAME(R.layout.fullscreen_example_simple, FixedFrame.class),

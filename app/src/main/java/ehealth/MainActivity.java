@@ -20,7 +20,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.beslimir.R;
-import com.example.beslimir.ehealth.graph_view.ItemListActivity;
+import ehealth.graph_view.ItemListActivity;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -28,7 +28,7 @@ import java.io.OutputStream;
 import java.util.UUID;
 
 import static android.view.View.GONE;
-import static com.example.beslimir.ehealth.Constants.SENSOR_NUM;
+import static ehealth.Constants.SENSOR_NUM;
 
 public class MainActivity extends AppCompatActivity {
 

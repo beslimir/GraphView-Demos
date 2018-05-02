@@ -1,3 +1,7 @@
+A big thanks to jjoe64 which helped me to finalize my project.
+To work with eHealth project and for more info, please check out the branch "faculty_project".
+
+
 Chart and Graph Library for Android
 ====================================
 

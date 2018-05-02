@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jjoe64.graphview_demos">
+    package="com.example.beslimir">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ItemListActivity"
+            android:name="com.example.beslimir.ehealth.SplashScreen"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -21,19 +22,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ItemDetailActivity"
+            android:name="com.example.beslimir.ehealth.graph_view.ItemDetailActivity"
             android:label="@string/title_item_detail"
-            android:parentActivityName=".ItemListActivity"
+            android:parentActivityName="com.example.beslimir.ehealth.graph_view.ItemListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jjoe64.graphview_demos.ItemListActivity" />
+                android:value="com.example.beslimir.ehealth.graph_view.ItemListActivity" />
         </activity>
+
         <activity
-            android:name=".FullscreenActivity"
+            android:name="com.example.beslimir.ehealth.graph_view.FullscreenActivity"
             android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="landscape"
-            ></activity>
+            android:screenOrientation="landscape" />
+
+        <activity android:name="com.example.beslimir.ehealth.MainActivity" />
+        <activity android:name="com.example.beslimir.ehealth.DeviceList" />
+        <activity android:name="com.example.beslimir.ehealth.ParseData" />
+        <activity android:name="com.example.beslimir.ehealth.AboutActivity" />
+
+        <!-- The change -->
+        <activity android:name="com.example.beslimir.ehealth.graph_view.ItemListActivity" />
+
     </application>
 
 </manifest>

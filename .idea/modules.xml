@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GraphView/GraphView.iml" filepath="$PROJECT_DIR$/GraphView/GraphView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GraphView-Demos.iml" filepath="$PROJECT_DIR$/GraphView-Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphView/GraphView.iml" filepath="$PROJECT_DIR$/GraphView/GraphView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/SalesforceMobileSDK-Android/libs/GraphView-Demos/SalesforceReact.iml" filepath="$PROJECT_DIR$/../node_modules/SalesforceMobileSDK-Android/libs/GraphView-Demos/SalesforceReact.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eHealth project.iml" filepath="$PROJECT_DIR$/eHealth project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" />
     </modules>
   </component>
 </project>

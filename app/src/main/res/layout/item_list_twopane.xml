@@ -9,7 +9,7 @@
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="horizontal"
     android:showDividers="middle"
-    tools:context="com.jjoe64.graphview_demos.ItemListActivity">
+    tools:context="com.example.beslimir.ehealth.graph_view.ItemListActivity">
 
     <!--
     This layout is a two-pane layout for the Items
@@ -32,7 +32,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         app:layoutManager="LinearLayoutManager"
-        tools:context="com.jjoe64.graphview_demos.ItemListActivity"
+        tools:context="com.example.beslimir.ehealth.graph_view.ItemListActivity"
         tools:listitem="@layout/item_list_content" />
 
     <FrameLayout

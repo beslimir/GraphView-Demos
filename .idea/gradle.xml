@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/GraphView" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/libs" />
+            <option value="$PROJECT_DIR$/../node_modules/SalesforceMobileSDK-Android/libs/GraphView-Demos" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

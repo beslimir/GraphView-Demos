@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">GraphView-Demos</string>
+    <string name="app_name">eHealth (Arduino)</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="about_project">O projektu</string>
+    <string name="project_info">Projekt realiziran u Android Studiu i arduino okruženju\nMarin Bešlo, Mirko Bagarić, Petar Vukoja</string>
+    <string-array name="sensors">
+        <item>Temperatura</item>
+        <item>EKG</item>
+        <item>EMG</item>
+        <item>Protok zraka</item>
+        <item>Provodljivost kože</item>
+    </string-array>
 </resources>
